@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID </title>
+</head>
+
+<style>
+   .container  {
+    display: grid ;
+    
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(autofill , mimax(90px , 1fr)) !important;
+    grid-column-end: ;
+}
+.items{
+    padding: 20px;
+    margin: 20px;
+    background-color: chartreuse;
+    border: 3px rgb(31, 30, 30) solid;
+    border-radius: 20px;
+}
+#contact{
+    position: absolute;
+    background-attachment: fixed;
+    bottom: 0px;
+    right: 10px;
+    float: right;
+}
+
+    
+    
+
+.absolute{
+    position: relative;
+}
+    
+</style>
+<body>
+    
+<h1>GRID</h1>
+
+<div class="container">
+<div class="items">GRID 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum porro ad dolor iure deleniti doloremque a, optio quae enim sit impedit dolorum magni et sint natus commodi saepe numquam laboriosam vel. Modi expedita, odio perferendis dolorum dolore quis nam!</div>
+<div class="items">luta deleniti obcaecati magni reiciendis, laboriosam quos saepe, est vel dolorum! Quia, a eligendi!</div>
+<div class="items">regevdk.</div>
+<div class="items">GRID 6</div>
+<div class="absolute"><img id="contact" width="120px
+    " src="./image/watsapp.jpg" alt="whatsapp icon">
+    
+</div>
+<a href="https://wa.me/03120293840"></a>
+
+</body>
+
+
+</html>
